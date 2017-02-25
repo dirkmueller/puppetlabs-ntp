@@ -97,7 +97,7 @@ class ntp::params {
         '127.0.0.1',
         '-6 ::1',
       ]
-      $service_name    = 'ntp'
+      $service_name    = 'ntpd'
       $iburst_enable   = false
       $servers         = [
         '0.opensuse.pool.ntp.org',
